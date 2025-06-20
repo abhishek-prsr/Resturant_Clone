@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 100px;
+    width: 100vw;
+    /* border: 2px solid black; */
+    background-color: white;
+    box-shadow: 0px 2px 8px #888888;
+    position: fixed;
+    z-index: 100;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+.food{
+    margin-left: 100px;
+    margin-top: 120px;
+    /* border: 2px solid black; */
+    height: 60vh;
+    width: 60vh;
+    display: inline-block;
+
+}
+.text{
+    height: 58vh;
+    width: 50vw;
+    /* border: 2px solid black; */
+    display: inline-block;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 60px;
+    top: 10px;
+}
+.main{
+    height: 80vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    /* gap: 20px; */
+}
+.discount{
+    height:30px;
+    width: 200px;
+    margin-top: 10vh;
+    /* border: 2px solid black; */
+    background-color: rgb(67, 184, 67);
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.discount:hover{
+  font-size: 20;
+  box-shadow: 2px 2px 2px black;
+}
+.discount a{
+  text-decoration: none;
+}
+.delicious{
+    height: 155px;
+    width: 500px;
+    font-size: 30px;
+    margin-top: 30px;
+    /* border: 2px solid red; */
+}
+.lorem{
+    font-size: 18px;
+}
+.Explore button{
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: rgb(202, 148, 48);
+    font-size: 18px;
+}
+.Explore button:hover{
+    background-color: orange;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 200px;
+    /* border: 2px solid black; */
+    margin-left: 140px;
+}
+.bottom .icon1:hover{
+    box-shadow: 2px 2px 2px;
+}
+.bottom .icon2:hover{
+    box-shadow: 2px 2px 2px;
+}
+.bottom .icon3:hover{
+    box-shadow: 2px 2px 2px;
+}
+b{
+    font-size: 20px;
+}
+.Go{
+    width: 100vw;
+    height: 100px;
+    /* border: 2px solid black; */
+}
+.btn{
+    width: 100%;
+    height: 70px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+#button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(67,184, 67);
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+}
+#menudiv{
+    width: 100%;
+    height: 60px;
+    /* border: 2px solid yellow; */
+}
+/* .menu{
+    width: 300px;
+    height: 10px;
+    margin-top: 50px;
+    margin-left: 665px;
+} */
+ .menu{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    margin: 50px 0;
+ }
+ .menu .discount{
+    align-self: center;
+    text-align: center;
+ }
+ .menu h1{
+    align-self: center  ;
+ }
+.head{
+    margin: 0px auto;
+}
+.last{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid red;
+    display: grid;
+    grid-template-rows: repeat(2,40px);
+    grid-template-columns: repeat(3,40px);
+}
+.divider{
+    border: 1px solid grey;
+    margin: 20px 0;
+}
+.grid-image {
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+  .grid-image:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+  }
+  .grid {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+      "I1 I1 I2 I3"
+      "I1 I1 I2 I7"
+      "I4 I5 I6 I7";
+  }
+  
+  .item1 {
+    grid-area: I1;
+  }
+  .item2 {
+    grid-area: I2;
+  }
+  .item3 {
+    grid-area: I3;
+  }
+  .item4 {
+    grid-area: I4;
+  }
+  .item5 {
+    grid-area: I5;
+  }
+  .item6 {
+    grid-area: I6;
+  }
+  .item7 {
+    grid-area: I7;
+  }
+  .grid{
+    padding: 10px;
+  }
+  footer{
+    /* border: 2px solid black; */
+    height: 50vh;
+    background-color: #fff0db;
+  }
+  .center{
+    height: 200px;
+    width: 80%;
+    /* border: 2px solid black; */
+    margin-left: 130px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .div1{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* margin-top: 70px; */
+    /* border: 2px solid black; */
+  }
+  .div1 img{
+    margin-top: 50px;
+  }
+  .div2{
+    width: 150px;
+    height: 100%;
+    /* margin-top: 70px; */ 
+    /* border: 2px solid black; */
+  }
+  .div2 h2{
+    margin-top: 60px;
+  }
+  .div2 ul{
+    list-style: none;
+    padding-top: 15px;
+    margin-top: 10px;
+  }
+  .div3{
+    width: 150px;
+    height: 50px;
+    /* margin-top: 70px; */
+    /* border: 2px solid black; */
+  }
+  .div3 h2{
+    margin-top: 60px;
+  }
+  .div3 ul{
+    list-style: none;
+    padding-top: 15px;
+    margin-top: 10px;
+  }
+  .div4{
+    height: 100%;
+    /* margin-top: 70px; */
+    /* border: 2px solid black; */
+    text-align: center;
+  }
+  .div4 h2{
+   margin-top: 60px;
+  }
+  .div4 input{
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+    .Follow{
+    /* margin-top: 10px; */
+    /* padding-top: 40px; */
+    margin-bottom: 10px;
+  }
+  .image{
+    width: 20px;
+    padding: 10px;
+  }
